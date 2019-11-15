@@ -1,0 +1,31 @@
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+canvas {
+  background-color: #000;
+  display: block;
+}
+
+/* dat gui */
+.dg.main.a,
+.close-button {
+  width: 500px !important;
+}
+
+.dg .cr.string,
+.dg .cr.number,
+.dg .cr.boolean {
+  border-left: 3px solid #fff !important;
+}
+
+.dg .c .slider-fg {
+  background: #fff !important;
+}
+
+.dg .cr.number input[type=text] {
+  color: #fff !important;
+}
